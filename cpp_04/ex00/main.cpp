@@ -8,11 +8,22 @@ int main()
 	Sorcerer robert("Robert", "the Magnificent");
 	Victim jim("Jimmy");
 	Peon joe("Joe");
-	Villager jack("Jack");
 
-	std::cout << robert << jim << joe << jack;
+	std::cout << robert << jim << joe;
 	robert.polymorph(jim);
 	robert.polymorph(joe);
-	robert.polymorph(jack);
+	
 	return 0;
+
+	// Sorcerer robert("Robert", "the Magnificent");
+	// Victim jim("Jimmy");
+	// Peon joe("Joe");
+	// Villager jack("Jack");
+	//
+	// std::cout << robert << jim << joe << jack;
+	// robert.polymorph(jim);
+	// robert.polymorph(joe);
+	// robert.polymorph(jack);
+	//
+	// return 0;
 }
