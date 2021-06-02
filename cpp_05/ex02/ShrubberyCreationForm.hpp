@@ -12,7 +12,7 @@ public:
 	ShrubberyCreationForm(std::string const &target);
 	ShrubberyCreationForm(ShrubberyCreationForm const &other);
 	ShrubberyCreationForm &operator=(ShrubberyCreationForm const &other);
-	~ShrubberyCreationForm();
+	virtual ~ShrubberyCreationForm();
 
 	class FileOpenException : public std::exception
 	{

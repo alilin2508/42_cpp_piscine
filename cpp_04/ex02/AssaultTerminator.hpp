@@ -9,7 +9,7 @@ public:
 	AssaultTerminator();
 	AssaultTerminator(AssaultTerminator const &other);
 	AssaultTerminator &operator=(AssaultTerminator const &other);
-	~AssaultTerminator();
+	virtual ~AssaultTerminator();
 
 	ISpaceMarine* clone() const;
 	void battleCry() const;

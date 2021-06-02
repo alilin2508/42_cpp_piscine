@@ -9,7 +9,7 @@ public:
 	TacticalMarine();
 	TacticalMarine(TacticalMarine const &other);
 	TacticalMarine &operator=(TacticalMarine const &other);
-	~TacticalMarine();
+	virtual ~TacticalMarine();
 
 	ISpaceMarine* clone() const;
 	void battleCry() const;

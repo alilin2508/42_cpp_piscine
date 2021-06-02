@@ -9,7 +9,7 @@ public:
 	RadScorpion();
 	RadScorpion(RadScorpion const &other);
 	RadScorpion &operator=(RadScorpion const &other);
-	~RadScorpion();
+	virtual ~RadScorpion();
 
 	using Enemy::takeDamage;
 

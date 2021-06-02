@@ -9,7 +9,7 @@ public:
 	Villager(std::string const &name);
 	Villager(Villager const &other);
 	Villager &operator=(Villager const &other);
-	~Villager();
+	virtual ~Villager();
 
 	void getPolymorphed() const;
 

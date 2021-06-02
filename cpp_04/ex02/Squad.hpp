@@ -10,7 +10,7 @@ public:
 	Squad();
 	Squad(Squad const &other);
 	Squad &operator=(Squad const &other);
-	~Squad();
+	virtual ~Squad();
 
 	int getCount() const;
 	ISpaceMarine* getUnit(int index) const;
