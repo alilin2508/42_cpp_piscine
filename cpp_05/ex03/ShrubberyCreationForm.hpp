@@ -24,6 +24,7 @@ public:
 	};
 
 	void execute(Bureaucrat const &bureaucrat);
+	static Form *generate(std::string const &target);
 
 private:
 
