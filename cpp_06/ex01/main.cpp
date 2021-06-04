@@ -45,4 +45,5 @@ int main()
 
 	Data *deserialized = deserialize(serialized);
 	std::cout << "Deserialized data: " << deserialized->s1 << " " << deserialized->n << " " << deserialized->s2 << std::endl;
+	delete(deserialized);
 }
